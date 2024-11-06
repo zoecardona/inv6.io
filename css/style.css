@@ -419,7 +419,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
     padding: 10px;
     border-radius: 1px;
     text-decoration: none;
-    color: #333;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: bold;
     z-index: 1;
@@ -427,18 +427,19 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 
     .enlace-sobre-imagen1 {
         position: absolute;
-        bottom: 17vh;
-        left: 88%;
-        transform: translateX(-88%);
+        bottom: 18vh;
+        left: 98%;
+        transform: translateX(-98%);
         padding: 10px 5px; /* Reducir el padding para evitar que ocupe más espacio */
         border-radius: 1px;
         text-decoration: none;
-        color: #333;
+        color: black;
         font-size: 10px;
         font-weight: bold;
         z-index: 1;
         letter-spacing: 0px;
         white-space: nowrap; /* Evita que el texto se divida en dos líneas */
+        
 
         }
 
@@ -495,7 +496,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 
     /* Botones */
     .de-button {
-        padding: 8px 20px;
+        padding: 7px 18px;
         font-size: 12px;
     }
     /* Enlaces superpuestos en imágenes */
@@ -536,7 +537,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 
     /* Ajustar botones para pantallas pequeñas */
     .de-button {
-        padding: 6px 16px;
+        padding: 5px 15px;
         font-size: 10px;
     }
 
